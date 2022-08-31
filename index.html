@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!--links a css y a boostrap-->
+   <link rel="icon" type="image/x-icon" href="imagenes-otros/favicon.png">
+   <link rel="stylesheet" href="./css/styles.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-<link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>¡Ring the Ring!</title>
 </head> 
 <body>
   <!--nav-->
    <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" id="icono" href="./index.html"><img src="./imagenes-otros/gloves.png" alt="" sizes="5rem">¡Ring the ring!</a>
+          <div data-aos="fade-in">
+          <a class="navbar-brand" id="icono" href="./index.html"><img src="./imagenes-otros/icono.png" alt="" sizes="5rem">¡Ring the ring!</a>
+          </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -47,43 +51,83 @@
           </div>
         </div>
       </nav>
-      <header><img class="img-fluid" src="./imagenes-otros/1023.jpg" alt=""></header>
+<div data-aos="fade-up">
+  <header><img class="img-fluid" src="./imagenes-otros/1023.jpg" alt=""></header>
+</div>
+
     <main class="container-fluid">
       <!--contenido y tarjetas-->
       <!--trjeta 1-->
-      <div class="h3 text-center pt-3 pb-3">¡bienvenido a ring the ring!</div>
-      <p class="h6 text-center">Deporte de combate en el que dos personas de la misma categoría de peso luchan entre sí golpeándose con los puños, empleando para ello unos guantes especiales y siguiendo unas reglas específicas, se practica sobre un ring o cuadrilátero durante un número determinado de asaltos, generalmente de tres minutos de duración; gana el boxeador que consigue noquear al adversario o, si esto no ocurre, aquel que deciden los jueces. </p>
+      <div data-aos="fade-right" class="text-center pt-3 pb-3" id="textostitulares">¡bienvenido a ring the ring!</div>
+      <p data-aos="fade-left" class="text-center" id="textosintroductorios">Deporte de combate en el que dos personas de la misma categoría de peso luchan entre sí golpeándose con los puños, empleando para ello unos guantes especiales y siguiendo unas reglas específicas, se practica sobre un ring o cuadrilátero durante un número determinado de asaltos, generalmente de tres minutos de duración; gana el boxeador que consigue noquear al adversario o, si esto no ocurre, aquel que deciden los jueces. </p>
       <div class="row pt-3 pb-3 justify-content-around">
       <div class="card" style="width: 18rem;">
-        <img src="./imagenes-otros/boxeo1.jpg" class="card-img-top" alt="...">
+        <img data-aos="fade-up" src="./imagenes-otros/boxeo1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, voluptatibus officiis sint animi eos veritatis corporis quaerat vitae. Culpa, modi?</p>
+          <p data-aos="fade-down" id="otrostextos" class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, voluptatibus officiis sint animi eos veritatis corporis quaerat vitae. Culpa, modi?</p>
         </div>
       </div>
       <!--tarjeta 2-->
+
       <div class="card" style="width: 18rem;">
-        <img src="./imagenes-otros/boxeo2.jpg" class="card-img-top" alt="...">
+        <img data-aos="fade-up" src="./imagenes-otros/boxeo2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora officiis quas voluptatem soluta quidem laboriosam minima sunt cum corrupti.</p>
+          <p data-aos="fade-down" id="otrostextos" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempora officiis quas voluptatem soluta quidem laboriosam minima sunt cum corrupti.</p>
         </div>
       </div>
+
       <!--tarjeta 3-->
       <div class="card" style="width: 18rem;">
-        <img src="./imagenes-otros/boxeo3.jpg" class="card-img-top" alt="...">
+        <img data-aos="fade-up" src="./imagenes-otros/boxeo3.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error eos ratione architecto inventore cupiditate vero. Obcaecati aut cum odit debitis.</p>
+          <p data-aos="fade-down" id="otrostextos" class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error eos ratione architecto inventore cupiditate vero. Obcaecati aut cum odit debitis.</p>
         </div>
       </div>
     </div>
-<!--footer-->
+
     </main>
-    <footer class="container-fluid">
-      <div class="row" id="footer">
-        <div class="col bg-danger">a</div>
-      </div>
+    <!--footer-->
+    <footer>
+    <table class="table align-middle table-borderless">
+      <thead>
+        <tr class="table-light">
+
+          <th scope="col"></th>
+          <th id="redes" scope="col">¡redes sociales!</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr class="table-light">
+
+          <td><a href="https://www.instagram.com/ring_the_ringg"><img id="redesiconos" src="./imagenes-otros/instagram.png" alt=""></a></td>
+          <td id="redes"><a class="nav-link" href="https://www.instagram.com/ring_the_ringg/">¡instagram!</a></td>
+          <td>@mdo</td>
+        </tr>
+        <tr class="table-light">
+          <td><a href="https://www.facebook.com/Ring-the-ring-101831616003576/"><img id="redesiconos" src="./imagenes-otros/facebook.png" alt=""></a></td>
+          <td id="redes"><a class="nav-link" href="https://www.facebook.com/Ring-the-ring-101831616003576/">¡facebook!</a></td>
+          <td>@fat</td>
+        </tr>
+        <tr class="table-light">
+
+          <td><a href="https://twitter.com/Ringthering1"><img id="redesiconos" src="./imagenes-otros/twitter.png" alt=""></a></td>
+          <td id="redes"><a class="nav-link" href="https://twitter.com/Ringthering1">¡twitter!</a></td>
+          <td>@fat</td>
+        </tr>
+      </tbody>
+      <tfoot class="table-light">
+        <p id="derechos">© 2022-2028 Ring the Ring Todos los derechos reservados.</p>
+      </tfoot>
+    </table>
 
     </footer>
     <!-- JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

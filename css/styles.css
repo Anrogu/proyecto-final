@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+#redes{
+    padding-left: 20%;
+}
+#redesiconos{
+    padding-left: 100%;
+}
+#derechos{
+    padding-left:35%;
+}
+
+#textosintroductorios{
+    font-family: 'Roboto Slab', serif;
+
+}
+#textostitulares{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    
+}
+#otrostextos{
+    font-family: 'Heebo', sans-serif;
+   
+}
