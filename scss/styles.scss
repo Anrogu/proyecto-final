@@ -1,34 +1,25 @@
-@import "fonts";
-$font-titular:'Bebas Neue', cursive; 
-$tituar-tama: 40px;
-$Font-iniciales: 'Roboto Slab', serif;
-$font-otros:'Heebo', sans-serif;
 
-#redes{
-    padding-left: 20%;
-}
-#redesiconos{
-    padding-left: 100%;
-}
-#derechos{
-    padding-left:35%;
-}
+$buttons: rgb(255, 169, 169);
+$primary: $buttons;
 
-#textosintroductorios{
-    font-family:($Font-iniciales);
-
-}
-
-#textostitulares{
-    font-family: ($font-titular);
-    font-size: ($tituar-tama);
-
-    
-}
-main{
-    div{
-        p{
-            font-family:$font-otros;
-        }
-    }
-}
+#redes {
+    padding-left: 20%; }
+  
+  #redesiconos {
+    padding-left: 100%; }
+  
+  #derechos {
+    padding-left: 35%; }
+  
+  #textosintroductorios {
+    font-family: "Roboto Slab", serif;}
+  
+  #textostitulares {
+    font-family: "Bebas Neue", cursive;
+    font-size: 40px; }
+  
+  main div p {
+    font-family: "Heebo", sans-serif; } 
+@import"fonts";
+@import "../libs/bootstrap/scss/bootstrap.scss";
+@import"mixin";
