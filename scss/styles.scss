@@ -2,6 +2,21 @@
 $buttons: rgb(255, 169, 169);
 $primary: $buttons;
 
+$palette: (
+  "azul":blue,
+  "amarillo":yellow,
+  "verde":green
+
+);
+.ejemplo1{
+  background-color: yellow;
+  size: 100mm;
+}
+.ejemplo2{
+  @extend .ejemplo1;
+}
+
+
 #redes {
     padding-left: 20%; }
   
@@ -20,6 +35,12 @@ $primary: $buttons;
   
   main div p {
     font-family: "Heebo", sans-serif; } 
+    @debug map-get($colors,azul);
+    #ejemplo{
+      @include ejemplo
+      
+    };
+
 @import"fonts";
 @import "../libs/bootstrap/scss/bootstrap.scss";
 @import"mixin";
