@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- CSS only -->
-   <link rel="stylesheet" href="../css/styles.css">
-<link href="../scss/styles.css" rel="stylesheet">
+    <!--link a favicon-->
+    <link rel="icon" type="image/x-icon" href="../imagenes-otros/favicon.png">
+    <meta name="description" content="aprende todo sobre boxeo">
+    <!--link a css-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!--SEO-->
+  <meta name="keywords" content="boxing, boxeo, guantes de box, peleas de boxeo, contacto, datos,">
+  <!--link a scss-->
+<link href="./scss/styles.css" rel="stylesheet">
+<!--link a AOS-->
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<link rel="icon" type="image/x-icon" href="../imagenes-otros/favicon.png">
-
     <title>¡Ring the Ring!</title>
-</head> 
+</head>
 <body>
   <!--nav-->
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <a data-aos="fade-in" class="navbar-brand" href="../index.html"><img src="../imagenes-otros/icono.png" alt="" sizes="5rem">¡Ring the Ring!</a>
+      <a data-aos="fade-in" class="navbar-brand" href="../index.html"><img src="../imagenes-otros/icono.png" alt="guante de boxeo" sizes="5rem">¡Ring the Ring!</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -26,7 +31,7 @@
           <a class="nav-link" href="./equipo.html">¡equipo!</a>
         </li>
         <li class="nav-item">
-         </li>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="./sitios.html">¡mas informacion!</a>
           </li>
@@ -50,72 +55,78 @@
       </div>
     </div>
   </nav>
-      <header><img data-aos="fade-up" class="img-fluid" src="../imagenes-otros/businesswoman-looking-important-contact-on-phone.jpg" alt=""></header>
-    <main>
-      <div id=textostitulares class="h3 text-center pt-3 pb-3">¡cuentanos tu experiencia!</div>
-      <div id="textosintroductorios" class="text-center pt-1 pb-3">(¿algun percance en la pagina?)</div>
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="basic-addon1">¿cual es tu nombre?</span>
-        <input type="text" class="form-control" placeholder="introduce tu nombre" aria-label="Username" aria-describedby="basic-addon1">
+  <!--fin de nav-->
+  <!--imagen de header-->
+      <header>
+      <img data-aos="fade-up" class="img-fluid" src="../imagenes-otros/businesswoman-looking-important-contact-on-phone.jpg" alt="una mujer mirando el telefono">
+      </header>
+      <main>
+        <!--contenido-->
+      <form action="https://formsubmit.co/gelosgr@gmail.com" method="POST">
+      <!--texto introductorio-->
+        <h1 data-aos="fade-right" id="textostitulares" class="h3 text-center pt-3 pb-3">¡cuentanos tu experiencia!</h1>
+        <h2 data-aos="fade-right" id="textosintroductorios" class="text-center pt-1 pb-3">(¿algun percance en la pagina?)</h2>
+        <!--input nombre-->
+        <div class="input-group mb-3">
+          <span data-aos="fade-right" class="input-group-text" id="basic-addon1">¿cual es tu nombre?</span>
+          <input data-aos="fade-right" type="text" name="name" class="form-control" placeholder="introduce tu nombre" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <!--input mail-->
+        <div class="input-group mb-3">
+          <input data-aos="fade-right" type="email" name="email" class="form-control" placeholder="introduce tu correo" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <span  data-aos="fade-right"class="input-group-text" id="basic-addon2">¡cuentanos tu correo!</span>
+        </div>
+        <!--input contenido-->
+        <label data-aos="fade-right" for="basic-url" class="form-label">¿que ocurre?</label>
+          <div class="input-group">
+          <textarea data-aos="fade-right" class="form-control" aria-label="With textarea"></textarea>
+        </div>
+        <!--boton de envio-->
+      <div class="d-grid gap-2">
+        <button data-aos="fade-right" type="submit" class="btn btn-primary" type="button">enviar formulario</button>
       </div>
-      
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="introduce tu correo" aria-label="Recipient's username" aria-describedby="basic-addon2">
-        <span class="input-group-text" id="basic-addon2">¡cuentanos tu correo!</span>
-      </div>
-      
-      <label for="basic-url" class="form-label">¿que ocurre?</label>
-
-      <div class="input-group">
-
-        <textarea class="form-control" aria-label="With textarea"></textarea>
-      </div>
-
-    </main>
-    <div class="d-grid gap-2">
-      <button class="btn btn-primary" type="button">enviar formulario</button>
-    </div>
+    </form>
+      </main>
         <!--footer-->
         <footer>
           <table class="table align-middle table-borderless">
             <thead>
               <tr class="table-light">
-      
                 <th scope="col"></th>
                 <th id="redes" scope="col">¡redes sociales!</th>
                 <th scope="col"></th>
               </tr>
             </thead>
             <tbody>
-              
               <tr class="table-light">
-      
-                <td><a href="https://www.instagram.com/ring_the_ringg"><img id="redesiconos" src="../imagenes-otros/instagram.png" alt=""></a></td>
+                <!--instagram-->
+                <td><a href="https://www.instagram.com/ring_the_ringg"><img id="redesiconos" src="../imagenes-otros/instagram.png" alt="icono de instagram"></a></td>
                 <td id="redes"><a class="nav-link" href="https://www.instagram.com/ring_the_ringg/">¡instagram!</a></td>
                 <td></td>
               </tr>
               <tr class="table-light">
-                <td><a href="https://www.facebook.com/Ring-the-ring-101831616003576/"><img id="redesiconos" src="../imagenes-otros/facebook.png" alt=""></a></td>
+                <!--facebook-->
+                <td><a href="https://www.facebook.com/Ring-the-ring-101831616003576/"><img id="redesiconos" src="../imagenes-otros/facebook.png" alt="icono de facebook"></a></td>
                 <td id="redes"><a class="nav-link" href="https://www.facebook.com/Ring-the-ring-101831616003576/">¡facebook!</a></td>
                 <td></td>
               </tr>
               <tr class="table-light">
-      
-                <td><a href="https://twitter.com/Ringthering1"><img id="redesiconos" src="../imagenes-otros/twitter.png" alt=""></a></td>
+                <!--twitter-->
+                <td><a href="https://twitter.com/Ringthering1"><img id="redesiconos" src="../imagenes-otros/twitter.png" alt="icono de twitter"></a></td>
                 <td id="redes"><a class="nav-link" href="https://twitter.com/Ringthering1">¡twitter!</a></td>
                 <td></td>
               </tr>
             </tbody>
+            <!--derechos-->
             <tfoot class="table-light">
-              <p id="derechos">© 2022-2028 Ring the Ring Todos los derechos reservados.</p>
+            <p id="derechos">© 2022-2028 Ring the Ring Todos los derechos reservados.</p>
             </tfoot>
           </table>
-      
           </footer>
-          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-          <script>
-            AOS.init();
-          </script>
-      <script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
+          <!--fin de footer-->
+    <!--librerias y otros scripts-->
+    <script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>

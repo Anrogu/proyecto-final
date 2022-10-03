@@ -1,21 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+#redes {
+  padding-left: 20%; }
 
-$buttons: rgb(255, 169, 169);
-$primary: $buttons;
+#redesiconos {
+  padding-left: 100%; }
 
-$palette: (
-  "azul":blue,
-  "amarillo":yellow,
-  "verde":green
+#derechos {
+  padding-left: 35%; }
 
-);
-.ejemplo1{
-  background-color: yellow;
-  size: 100mm;
-}
-.ejemplo2{
-  @extend .ejemplo1;
-}
+#textosintroductorios {
+  font-family: "Roboto Slab", serif; }
 
+#textostitulares {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px; }
+
+main div p {
+  font-family: "Heebo", sans-serif;}
+
+
+  @media (max-width: 576px) { 
+    iframe{
+      width: 260px; 
+      height: 115px;
+    }
+  }
+
+  @media (min-width: 576px) { 
+    iframe{
+      width: 560px; 
+      height: 315px;
+    }
+  }
+
+
+  @media (min-width: 768px) { 
+    iframe{
+      width: 360px; 
+      height: 215px;
+    }
+
+  }
+  
+
+  @media (min-width: 1112px) { 
+    iframe{
+      width: 560px; 
+      height: 315px;
+    }
+
+  }
 
 #redes {
     padding-left: 20%; }
@@ -35,12 +71,6 @@ $palette: (
   
   main div p {
     font-family: "Heebo", sans-serif; } 
-    @debug map-get($colors,azul);
-    #ejemplo{
-      @include ejemplo
-      
-    };
 
-@import"fonts";
+    $primary:rgb(247, 141, 141);
 @import "../libs/bootstrap/scss/bootstrap.scss";
-@import"mixin";
